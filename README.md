@@ -1,2 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Validador de cartões de crédito
+
+Retorna a bandeira do cartão com a função  ```getCardType``` e a função ```validate```valida se o cartão é valido.
