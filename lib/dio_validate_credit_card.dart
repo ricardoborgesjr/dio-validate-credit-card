@@ -2,11 +2,6 @@ bool validate(String number) {
   // Remove espaços, traços e outros caracteres não numéricos
   number = number.replaceAll(RegExp(r'\D'), '');
 
-  // Verifica se o número contém apenas dígitos
-  if (!RegExp(r'^\d+$').hasMatch(number)) {
-    return false;
-  }
-
   // Algoritmo de Luhn
   int sum = 0;
   bool alternate = false;
